@@ -1,0 +1,7 @@
+file = open("data.txt", "r")
+content = file.read()
+lines = file.readlines()
+count_lines = len(lines)
+print(f"{count_lines} lines")
+file.close()
+print(content)
